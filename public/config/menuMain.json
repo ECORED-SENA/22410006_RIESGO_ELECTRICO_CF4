@@ -1,0 +1,86 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  }, 
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "definiciones",
+    "title": "1. Definiciones",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html"
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "competencias",
+    "title": "2. Competencias",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "competencias",
+        "title": "2.1 Competencias de las personas involucradas en actividades eléctricas ante una emergencia",
+        "anchor": "personas"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "competencias",
+        "title": "2.2 Aseguramiento del lugar de trabajo",
+        "anchor": "aseguramiento"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "competencias",
+        "title": "2.3 Plan de ayuda mutua",
+        "anchor": "plan"
+      }
+    ]
+  }, 
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "kit",
+    "title": "3. Kit de rescate eléctrico",
+    "breadcrumb": ["Inicio","Tema 3"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "kit",
+        "title": "3.1 Elementos del kit de rescate eléctrico",
+        "anchor": "elementos"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "kit",
+        "title": "3.2 Uso del kit de rescate eléctrico",
+        "anchor": "uso"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "kit",
+        "title": "3.3 Inspecciones periódicas",
+        "anchor": "inspecciones"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "kit",
+        "title": "3.4 Certificaciones",
+        "anchor": "certificaciones"
+      }
+    ]
+  }, 
+  { 
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "pon",
+    "title": "4. Procedimiento operativo normalizado - PON",
+    "breadcrumb": ["Inicio","Tema 4"],
+    "path": "pages/4-tema.html"
+  }
+]
